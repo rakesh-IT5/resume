@@ -1,0 +1,269 @@
+%-------------------------
+% Resume in Latex
+% Author : Abey George
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage{graphicx}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\RequirePackage{tikz}
+\RequirePackage{xcolor}
+\RequirePackage{fontawesome}
+\usepackage{tikz}
+\usetikzlibrary{svg.path}
+
+
+\definecolor{cvblue}{HTML}{0E5484}
+\definecolor{black}{HTML}{130810}
+\definecolor{darkcolor}{HTML}{0F4539}
+\definecolor{cvgreen}{HTML}{3BD80D}
+\definecolor{taggreen}{HTML}{00E278}
+\definecolor{SlateGrey}{HTML}{2E2E2E}
+\definecolor{LightGrey}{HTML}{666666}
+\colorlet{name}{black}
+\colorlet{tagline}{darkcolor}
+\colorlet{heading}{darkcolor}
+\colorlet{headingrule}{cvblue}
+\colorlet{accent}{darkcolor}
+\colorlet{emphasis}{SlateGrey}
+\colorlet{body}{LightGrey}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+% \pagestyle{fancy}
+% \fancyhf{}  % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\large#1} & \textbf{\small #2} \\
+      \textit{\large#3} & \textit{\small #4} \\
+      
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+\newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    {\Huge \scshape THODETI RAKESH} \\ \vspace{1pt}
+    hyderabad,telangana \\ \vspace{1pt}
+    \small \href{tel:+91-7036619585}{ \raisebox{-0.1\height}\faPhone\ \underline{+91-7036619585} ~} \href{mailto:rakesh.devops55@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{rakesh.devops55@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/rakesh-thodeti55/}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{https://www.linkedin.com/in/rakesh-thodeti55/}}  ~
+    \href{https://github.com/rakesh-IT5}{\raisebox{-0.2\height}\faGithub\ \underline{https://github.com/rakesh-IT5}} ~
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{EDUCATION}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {jb institute of engineering and technology}{2023}
+      {mining - \textbf{CGPA} - \textbf{59.92}}{hyderabad, india}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{ SKILLS}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-2pt, parsep=5pt]
+                \item Linux
+                \item Git, GitHub, GitLab
+                \item maven
+                \item Jenkins 
+                \item Terraform CloudFormation
+                \item Ansible 
+                \item Docker
+                \item kubernetes
+                \item AWS 
+                \item s3
+                \item Prometheus, Grafana, ELK Stack , Nagios 
+                \item Bash, Python,PowerShell 
+                \item firewalls, VPNs,  IAM 
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------
+\section{PROJECTS}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+       \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{Project Name}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Netflix Clone}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{About project \textbf{The Netflix Clone is a web application that replicates essential features of Netflix, built to enhance under-
+standing of modern web development and DevOps practices. - **Deployment:** Ansible for automation
+- **Containerization:** Docker **Key Features:** - User authentication and profile management - Movie
+and TV show catalog with search functionality - Streaming capabilities - User reviews and ratings -
+Watchlist feature **DevOps Focus:** This project emphasizes automated deployment and configuration.}}}
+
+            { {\underline{\noralsize{}}}}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          
+      \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{Project Name}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{SimpleApp CI/CD Pipeline}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{About project \textbf{This project involves setting up a Continuous Integration/Continuous Deployment (CI/CD) pipeline using Jenkins to automate the build, test, and deployment processes for a simple web application. The pipeline ensures that every code change goes through a standardized workflow, enhancing code quality, reducing manual errors, and accelerating delivery.}.}}
+            { {\href{} {\underline{\normalsize{}}}}}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          
+          \resumeProjectHeading
+          {\href{ProjectLink.com}{\textbf{\large{\underline{Project Name}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{ Cloud Infrastructure Automation with Terraform}}}{}
+          \resumeItemListStart
+            \resumeItem{\normalsize{About Project \textbf{This project focuses on using Terraform to automate the provisioning and management of cloud infrastructure. The aim is to define infrastructure as code (IaC), enabling consistent, repeatable, and automated deployments. You'll learn to write Terraform configuration files to provision and manage cloud resources such as AWS EC2 instances, apply these configurations, and manage the lifecycle of the infrastructure using Terraform commands.} }}
+            
+          \resumeItemListEnd 
+          
+    \resumeSubHeadingListEnd
+\vspace{-12pt}
+
+%
+
+
+%-----------EXPERIENCE-----------
+\section{INTERNSHIP}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {CODETECH IT SOLUTIONS \href{certificate Link}{\raisebox{-0.1\height}\faExternalLink }}{05 oct - 05 nov 2024} 
+      {\underline{Automation Pipeline Workflow}}{hyderabad, india}
+      \resumeItemListStart
+        \resumeItem{\normalsize{Implement CI/CD pipelines to automate the software development process \textbf{Automate Build Process: Automatically compile the code and resolve dependencies upon code commits.
+Automate Testing: Run unit and integration tests to validate the application’s functionality.
+Automate Deployment: Deploy the application to a specified environment (e.g., staging or production) after successful testing.
+Continuous Feedback: Provide immediate feedback to developers on the status of their code.}}}
+  
+      \resumeItemListEnd  
+  \resumeSubHeadingListEnd
+\vspace{-12pt}
+%-----------PROGRAMMING SKILLS-----------
+\section{Tranings}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\normalsize{DEVOPS:}}{ \normalsize{NARESH IT-hyderabad}} \\
+     \textbf{\normalsize{LINUX:}}{ \normalsize{NARESH IT-hyderabad}} \\
+     \textbf{\normalsize{SQL:}}{\normalsize{VINAY TECH HOUSRE-hyderabad}} \\
+     \textbf{\normalsize{AWS,PYTHON FOR DEVOPS:}}{\normalsize{ONLINE COURSE}\\
+    }}
+ \end{itemize}
+ \vspace{-15pt}
+
+
+%-----------INVOLVEMENT---------------
+ 
+ %-----------CERTIFICATIONS---------------
+\section{CERTIFICATIONS}
+
+$\sbullet[.75] \hspace{0.2cm}${\href{https://drive.google.com/file/d/17CkDGtHKFEfa-8LJJl6pg_5D6S2uvTdw/view?usp=drive_link} {DEVOPS -CODETECH IT SOLUTIONS}}\\
+
+$\sbullet[.75] \hspace{0.2cm}${\href{}{Command Line in Linux - Coursera}} \\
+
+\end{document}
